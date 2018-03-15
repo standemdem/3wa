@@ -1,0 +1,237 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(fond.png);
+  margin:0;
+}
+p {
+  font-family: "Open Sans", serif;
+  font-size:1em;
+}
+h1 {
+  text-align: center;
+  font-weight: normal;
+}
+.welcome {
+  font-family: "Slabo 27px";
+  font-size: 2.5em;
+  }
+/* HEADER */
+header {
+  width:100%;
+  background-color: #25b3b4;
+  margin-top: 100px;
+  border-top: 2px solid #424953;
+  border-bottom: 2px solid #424953;
+  text-align: center;
+  padding-bottom: 15px;
+}
+nav a{
+  font-family: "Slabo 27px", serif;
+  font-size: 1em;
+  color:white;
+  text-decoration: none;
+  padding:10px 8px;
+}
+
+.container {
+  max-width: 1100px;
+  min-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  display: block;
+  text-align: center;
+  }
+.article1 {
+  display:inline-block;
+  width: 68%;
+  text-align: center;
+}
+article {
+  vertical-align: top;
+  display: inline-block;
+}
+/*ecriture du titre*/
+.container2 {
+  max-width: 1100px;
+  min-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+
+}
+.titre1 {
+  color: #1c9ca2;
+}
+.today {
+  font-family: "Slabo 27px", sans-serif;
+  font-size: 3.5em;
+  }
+
+
+.floatleft {
+  display: inline-block;
+  width:65%;
+  background-color: #bae0d6;
+  text-align: justify;
+  font-weight: normal;
+  padding-bottom:50px;
+
+}
+
+.floatright {
+  width: 25%;
+  display:inline-block;
+  vertical-align: top;
+  background-color: #1c9ca2;
+  border: 3px solid #424953;
+}
+.recipe {
+  display: inline-block;
+  width:50%;
+  margin:0;
+  padding:0 20px;
+}
+.button {
+  background-color: #1c9ca2;
+  border: none;
+  color: white;
+  padding: 8px 8px 8px 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight:normal;
+  float: right;
+}
+
+h2 {
+  text-align: center;
+}
+.titre2 {
+  font-family: "Slabo 27px", serif;
+  font-size: 1.8em;
+  font-weight: normal;
+}
+.fa-tint{
+  color:#1c9ca2;
+}
+.fa-comment{
+  color:white;
+}
+
+.imgrecipe {
+  float:left;
+
+  border-radius:50px;
+  border-radius:50px;
+  border-radius:50px;
+  width:90px;
+  height:90px;
+}
+
+aside {
+  display: inline-block;
+  margin-left: 10px;
+  padding: 2px 10px;
+  position:relative;
+}
+.bluestyle {
+  color:#bae0d6;
+}
+.vignette {
+  display: inline-block;
+  position:relative;
+  float:right;
+  top: -150px;
+  left:90px;
+
+}
+
+.clear {
+  clear:both;
+}
+
+small {
+    text-align: center;
+}
+
+small img {
+    text-align: center;
+    width: 50px;
+}
+#licence {
+    display: block;
+    text-align: center;
+    padding: 0px;
+}
+/* page menu*/
+
+.containermenu {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  display: block;
+}
+div {
+  -webkit-transition: width 2s;
+  transition: width 2s;
+  margin-bottom: :200px;
+}
+div:hover {
+  height:300px;
+}
+.choix {
+  display: inline-block;
+  text-align:center;
+  width:33.33%;
+  vertical-align: top;
+  margin-top: 10px;
+  margin-bottom: :200px;
+}
+.imagefond {
+  background-color: #1c9ca2;
+  width:99%;
+  margin:2px 4px;
+  border: solid 2px;
+  border-bottom-left-radius: 40%;
+  display:inline-block;
+}
+.stretch {
+}
+.button2 {
+  background-color: #2b8d8e;
+  border: none;
+  color: white;
+  padding: 8px 8px 8px 8px;
+
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight:normal;
+}
+
+
+/*## CSS
+- Largeur limité entre 800px et 1100px
+- Largeur du bloc gauche : environ 70%
+- Largeur du bloc de droite : environ 30%
+- Utiliser une class pour limiter la largeur du contenu
+- Taille de la police :
+    - par défaut : 1em
+    - titre welcome : 2.5em
+    - titre today : 3.5em
+    - titre recipe : 1.8em
+    - titre news : 1.4em
+
+- Police utilisés :
+    - titre et nav : "Slabo 27px"
+    - texte : "Open Sans"
+
+## BONUS
+- Trouver comment on réalise les coins arrondis en CSS pour arrondir les photos
+*/

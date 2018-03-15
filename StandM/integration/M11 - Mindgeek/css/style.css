@@ -1,0 +1,127 @@
+*{
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "Candal";
+  src:url(../fonts/Candal/Candal.ttf);
+}
+@font-face {
+  font-family: "Open Sans";
+  src:url(../fonts/Open_Sans/OpenSans-Regular.ttf);
+}
+body {
+  background-image: url("../img/fond.png");
+  font-family: "Bree Serif";
+  font-size:100%;
+}
+img{
+  max-width: 100%;
+}
+p {
+  font-family: "Open Sans", serif;
+}
+h1, h2, h3 {
+  font-family: "Candal", serif;
+  font-weight: normal;
+}
+h2{
+  color: #012431;
+}
+h3 {
+  color:#fb8a9b;
+}
+a{
+  text-decoration: none;
+}
+.clearfix {
+  height:1%;
+}
+.clearfix:after {
+	content:".";
+	height:0;
+	line-height:0;
+	display:block;
+	visibility:hidden;
+	clear:both;
+}
+.container{
+  max-width: 80%;
+  margin: 0 auto;
+}
+body{
+  font-size: 100%;
+}
+.fa-users, .fa-user,.fa-cloud, .fa-envelope,.fa-cogs, .fa-chart-area, .fa-database {
+  color: #fb8a9b;
+  text-align: center;
+}
+nav>a>p{
+  font-family: "Candal", sans-serif;
+  color: #012431;
+  margin-top: 0;
+}
+nav>a {
+  text-align: center;
+}
+/*HEADER*/
+section>h1{
+  font-size: 3em;
+}
+section>p{
+  font-size: 2em;
+  font-family: "Candal", serif;
+  font-weight: lighter;
+}
+.flex_header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.flex_menu{
+  display: flex;
+  flex-direction: column;
+}
+.header_background{
+  background-image: url("../img/background.jpg");
+  background-position: center;
+  padding:200px 50px;
+  color: white;
+  text-align: center;
+}
+header>input {
+  width:100%;
+  background-color: #fb8a9b;
+  border: none;
+  color: white;
+  padding: 3% 8%;
+  margin-bottom: 3%;
+}
+/*MAIN ARTICLE*/
+.flex_article{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.flex_article h2{
+  flex-basis: 100%;
+  text-align: center;
+  border-top: dashed 1px #012431;
+  border-left: dashed 1px #012431;
+  padding-top: 3%;
+}
+
+.third_container {
+  width: calc(100%/3);
+  text-align: center;
+}
+.third_container>p {
+  text-align: left;
+}
+main>div>h2{
+  font-size: 1.8em;
+}
+main>div>h3{
+  font-size: 1.3em;
+}

@@ -1,0 +1,39 @@
+tr, td {
+  border: solid 3px rgba(0, 0, 0, 0.2);
+  height: 40px;
+  text-align: center;
+  padding:5px;
+
+}
+
+table {
+  border: medium solid rgba(0, 0, 0, 0.5);
+  width: 80%;
+  border-collapse: collapse;
+  background-image: url(chouffe.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.color {
+  background-color:red;
+}
+
+.color:hover {
+  background-color:pink;
+}
+
+.slipenbois {
+  text-transform: uppercase;
+  color:red;
+  font-family: arial;
+  font-size: 2em;
+
+}
+
+div {
+width:80%;
+  margin-left: auto;
+
+}

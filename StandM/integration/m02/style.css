@@ -1,0 +1,171 @@
+/*Mes polices*/
+
+@font-face {
+  font-family:"Blacksword";
+  src: url("Blacksword.otf")
+}
+@font-face {
+  font-family:"cardoregular";
+  src: url("cardo-regular.woff") format("woff");
+  font-weight: normal;
+  font-style:normal;
+}
+@font-face {
+  font-family:"cardoi";
+  src:url("cardo-italic.woff") format("woff");
+}
+@font-face {
+  font-family:"cardob";
+  src:url("cardo-bold.woff") format("woff");
+}
+
+body {
+  background-image: url("bunting.png");
+  background-repeat: repeat-x;
+  background-size:600px;
+  text-align:justify;
+}
+aside {
+  float:left;
+  position:fixed;
+  height: 100%;
+  width:260px;
+  background-color: #edeacc;
+  padding-left:0px;
+  margin-left: 0px;
+  border-radius: 10px;
+}
+ul {
+  padding-left:10px;
+  list-style-type: none;
+  line-height: 50px;
+  white-space: nowrap;
+}
+ul ul li {
+  font-size: 15px;
+  line-height: 30px;
+}
+
+li a:link {
+  font-family:"cardoregular";
+  text-align:none;
+  color:black;
+}
+li a:visited {
+  color:black;
+}
+li a:hover {
+  font-size: 20px;
+}
+section {
+  width:50%;
+  margin-left: auto;
+  margin-right: auto;
+  max-width:800px;
+}
+
+p {
+  font-family:"cardoregular", serif;
+  font-size: 1.4em;
+  line-height: 50px;
+  text-indent: 25px;
+  margin-top: 0px;
+}
+
+h1, h2, h3 {
+  font-family:"Blacksword", serif;
+  text-align: left;
+  margin-bottom:0px;
+  font-weight:normal;
+}
+
+h1 {
+  font-size: 4em;
+  text-align:center;
+  margin-top: 35px;
+}
+
+h2 {
+  font-size: 2.5em;
+  word-spacing: 25px;
+}
+
+h3 {
+  font-size: 1.5em;
+  word-spacing: 10px;
+}
+
+.cardoi {
+  font-family:"cardoi";
+}
+
+.cardob {
+  font-family:"cardob";
+}
+
+.rose {
+  color:pink;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.citation {
+  margin-top:80px;
+  margin-bottom:0px;
+  text-align:center;
+  font-size:25px;
+}
+
+.signature {
+  text-align:right;
+  font-size:15px;
+  font-family: "cardoi";
+}
+
+footer {
+  text-align:center;
+}
+
+footer p {
+  font-family: arial, serif;
+  font-size: 9px;
+  line-height: 12px;
+  text-indent: 0px;
+  width:50%;
+  margin-left: auto;
+  margin-right: auto;
+  max-width:800px;
+}
+
+a {
+  text-decoration: none;
+  color:pink;
+}
+
+footer img {
+  height:20px;
+  width:20px;
+}
+
+/*# INSTRUCTIONS
+Comprendre le fonctionnement de la typographie sur le Web.
+
+## HTML
+- Utilisation des balises sémantiques basique
+
+## CSS
+- Largeur du site à 50%
+- Police utilisé :
+    - Titre : Blacksword
+    - Texte : Cardo
+- Taille de police :
+    - par défaut : 1.4em / line-height : 50px / text-indent : 25px
+    - h1 : 4em
+    - h2 : 2.5em / word-spacing : 25px
+    - h3 : 1.5em / word-spacing : 10px
+
+## BONUS
+Limiter la taille du contenu à 800px maximum
+*/

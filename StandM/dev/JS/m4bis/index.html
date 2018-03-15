@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.slim.js"
+  integrity="sha256-fNXJFIlca05BIO2Y5zh1xrShK3ME+/lYZ0j+ChxX2DA="
+  crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/style.css">
+  <title>POO</title>
+</head>
+
+<body>
+  <header>
+  </header>
+  <div class="container">
+      <canvas id="tableau" width="800" height="500"></canvas>
+      <div class="width">
+        <div class="size" data-size="5">fin</div>
+        <div class="size" data-size="10">moyen</div>
+        <div class="size" data-size="15">large</div>
+
+      </div>
+      <div class="color_choice">
+        <div class="color" data-color="black"></div>
+        <div class="color" data-color="blue"></div>
+        <div class="color" data-color="red"></div>
+        <div class="color" data-color="yellow"></div>
+        <div class="color" data-color="green"></div>
+      </div>
+      <div>
+        <button type="button" id="clear">Clear</button>
+      </div>
+  </div>
+  <script src="js/classes/Program.class.js"></script>
+  <script src="js/classes/Pen.class.js"></script>
+  <script src="js/classes/Board.class.js"></script>
+
+
+  <script src="js/main.js"></script>
+  <script src="/socket.io/socket.io.js"></script>
+<script>
+  var socket = io();
+
+</script>
+</body>
+</html>

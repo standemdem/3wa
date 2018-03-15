@@ -1,0 +1,239 @@
+* {
+  box-sizing:border-box;
+}
+
+body {
+    background-image: url("fond.png");
+    margin:0;
+}
+
+.container {
+    max-width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    padding-bottom: 12px;
+}
+
+.flex-container {
+    display:flex;
+    flex-wrap:wrap;
+}
+
+header {
+    background-color: #b8cb20;
+    display:inline-block;
+    width:100%;
+}
+
+header img {
+    display:inline-block;
+}
+
+nav {
+    font-family:"oswald", serif;
+    font-weight: normal;
+    font-size: 1.3em;
+    text-transform:uppercase;
+    float:right;
+    margin-top:60px;
+    margin-bottom:60px;
+}
+
+nav a {
+    margin-right:40px;
+    color: black;
+}
+
+h1 {
+    font-family:"oswald", serif;
+    font-weight: normal;
+    color:#b8cb20;
+    text-transform:uppercase;
+}
+
+.sizing {
+    width:200px;
+    margin-right:5px;
+    margin-bottom: :5px;
+}
+
+article {
+    padding-left: 20px;
+    padding-right:20px;
+    width:50%;
+    display:inline-block;
+
+}
+
+article img {
+    float: left;
+}
+
+i {
+    padding-right: 3px;
+}
+
+.button {
+    background-color: #b8cb20; /* Green */
+    border: none;
+    color: white;
+    padding: 8px 8px 8px 8px;
+    font-family: arial, serif;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight:normal;
+    float: right;
+}
+
+.button:hover {
+    background-color:black;
+}
+
+.clear {
+    clear:both;
+}
+
+footer {
+    text-align: center;
+}
+
+footer img {
+    text-align: center;
+    width: 50px;
+}
+#licence {
+    display: block;
+    text-align: center;
+    padding: 0px;
+}
+
+/* CSS FORMULAIRE CONTACT  */
+form {
+  font-family: "oswald", serif;
+  width:90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form {
+  height:auto;
+  width:100%;
+}
+
+legend {
+  text-align: center;
+}
+label {
+  display:block;
+  margin
+}
+
+input {
+  display:inline-block;
+  margin-bottom:8px;
+}
+
+input[type=radio]{
+  box-sizing: border-box;
+  width:15px;
+}
+
+input[type=text]{
+  width: 70%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  background-color: #3CBC8D;
+  color:white;
+  font-size: 16px;
+  font-weight:bold;
+  text-align: center;
+}
+
+input[tyoe=checkbox] {
+  float:left;
+}
+
+select {
+  width:70%:
+  padding: 12px 20px;
+  margin: 8px 0;
+  background-color: #3CBC8D;
+  color:white;
+  font-size: 16px;
+  font-weight:bold;
+  display:block;
+  text-align: center;
+}
+
+input[type=submit] {
+  background-color:#b8cb20;
+  border: none;
+  padding-left: 16px 32px;
+  margin: 4px 2px;
+  width: 80px;
+  height:40px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+textarea {
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  border-radius: 4px;
+  resize: none;
+}
+
+/* CSS PAGE LOCATION */
+
+.map {
+  display:block;
+  width:90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* CSS PAGE ABOUT US */
+
+.aboutus {
+    padding-left: 20px;
+    padding-right:20px;
+    width:100%;
+    display:inline-block;
+  }
+
+/* image page aboutus*/
+.about {
+  float : right;
+  height:200px;
+}
+
+.cartouche {
+  margin: 30px 0;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: center;
+  width:500px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.div-2 {
+  border-right: 2px solid black;
+  border-left:  2px solid black;
+  flex-basis: 270px;
+}
+
+
+.phantome{
+  list-style-type: none;
+  line-height: 20px;
+  margin-left: 16px;
+  padding:0;
+
+}

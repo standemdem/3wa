@@ -1,0 +1,283 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Playfair Display', serif;
+  font-size: 1em;
+}
+h1 {
+  font-family: "Permanent Marker", serif;
+  font-size: 1.8em;
+  color: white;
+  text-align: center;
+  margin-top: 50px;
+}
+h2,h5 {
+  text-transform: uppercase;
+  font-family: "Permanent Marker", Arial, Serif;
+  color: white;
+}
+
+.titrearticle {
+  color:black;
+  text-align: center;
+  font-size: 1em;
+}
+p{
+  font-family: 'Playfair Display', serif;
+  font-size: 14px;
+}
+.menu {
+  background-color: rgba(0, 0, 0, 0.28);
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 15px;
+}
+nav a{
+  text-decoration: none;
+  color: white;
+  display:inline-block;
+  font-family: "Permanent Marker", Arial, Serif;
+  font-size: 12px;
+  padding-right: 25px;
+  margin-bottom:20px;
+}
+.fa-calendar, .fa-book, .fa-picture-o, .fa-envelope {
+  display:block;
+  text-align: center;
+  padding-bottom:5px;
+}
+.promo {
+  background-color: rgba(0, 0, 0, 0.15);
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+}
+.bckgrdimg {
+  background-image: url(fond.jpeg);
+  clip-path: polygon(0 0, 0 89%, 50% 100%, 100% 89%, 100% 0);
+  width:100%;
+  height:400px;
+  background-position: center;
+}
+/* article 1*/
+
+.container1 {
+  display:block;
+}
+
+.box1 {
+  display:inline-block;
+  margin-bottom: 15px;
+  margin-top: 25px;
+}
+.imgbox1 {
+  display: inline-block;
+  float:left;
+  height: 150px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.imgbox2 {
+  display: inline-block;
+  float:right;
+  height: 150px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.textbox1 {
+  margin-left: 10px;
+}
+
+/*article2*/
+.container2 {
+  display:block;
+  background:linear-gradient(to bottom, #AF0026, #A80028);
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.box2 {
+  display:inline-block;
+  width:33%;
+  text-align: center;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.imground {
+  border-radius:50px;
+  border-radius:50px;
+  border-radius:50px;
+  width:90px;
+  height:90px;
+}
+
+.textearticle2 {
+  font-size: 14px;
+  font-family: "Playfair Display";
+  color: white;
+}
+.box2:hover {
+  background-color: #15363f;
+  }
+
+a {
+  text-decoration: none;
+}
+/*FOOTER*/
+
+
+small {
+    text-align: center;
+    background-color: #AF0026;
+    color:white;
+    text-decoration: none;
+}
+small a {
+  text-decoration: none;
+  color:white;
+}
+
+small > img {
+    text-align: center;
+    width: 50px;
+    padding-top: 15px;
+}
+#licence {
+    display: block;
+    text-align: center;
+    padding: 0px;
+  }
+
+/*PAGE COURS*/
+
+          /*SECTION 1*/
+
+.description {
+  display:inline-block;
+  text-align: center;
+  width:100%;
+  margin: 25px 5px;
+}
+
+.box4 {
+  display:inline-block;
+  text-align: center;
+  width: 80%;
+  text-transform: uppercase;
+}
+.center {
+  display:inline-block;
+  vertical-align: middle;
+}
+
+.leleu {
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  height:150px;
+  display:inline-block;
+  float: left;
+  vertical-align: middle;
+  margin-right: 15px;
+}
+.clear {
+  clear:both;
+}
+          /*SECTION 2*/
+.container3 {
+  display: block;
+  margin-top: 30px;
+}
+
+.box3 {
+  display: inline-block;
+  width:33%;
+  text-align: center;
+  border-radius:10%;
+  background-color: #cedbee;
+  overflow: hidden;
+  border: solid #cedbee 1px;
+  padding: 10px 15px;
+}
+
+.box3:hover {
+  background-color: #7494ae;
+}
+
+.button_2 {
+  background-color: #af1027;
+  border-radius:5%;
+  padding: 12px 12px;
+  vertical-align: middle;
+  display:inline-block;
+  font-family: "Open Sans";
+  margin-bottom: 10px;
+  color:white;
+}
+
+.descritext {
+  padding:0 5px;
+}
+
+/*SECTION 3 TEMOIGNAGES*/
+.container4 {
+  display:block;
+  text-align: center;
+}
+.box4 {
+display:inline-block;
+}
+
+.box.arrow-bottom-left, .box.arrow-left-bottom {
+    border-bottom-left-radius: 0;
+}
+
+.box {
+    width: 300px;
+    height: 200px;
+    background-color: #3498db;
+    position: relative;
+    border-radius: 4px;
+}
+.box.arrow-bottom-left:after {
+    left: 0;
+    right: auto;
+}
+
+.box.arrow-bottom-left:after {
+    border-left-color: #3498db;
+    border-width: 10px;
+    margin: 0;
+}
+
+.box:after {
+    content: "";
+    display: block;
+    border-width: 20px 20px 0;
+    border-style: solid;
+    border-color: #3498db transparent transparent;
+    margin-left: -20px;
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+
+# INSTRUCTIONS
+Révision et approfondissement du float et du inline-block
+
+## HTML
+- Utilisation du normalize.css
+
+## CSS
+- Utilisation du inline-block et du float pour le placement de certains éléments
+- Taille de la police :
+    - par défaut : 1em
+    - nav : 1.5em
+    - titre header : 4em
+
+- Police utilisés :
+    - Titre et Nav : "Permanent Marker"
+    - Texte : "Playfair Display"
+
+## BONUS
+- Trouver comment on intègre une google map

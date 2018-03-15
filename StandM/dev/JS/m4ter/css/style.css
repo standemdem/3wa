@@ -1,0 +1,38 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background-color: gray;
+  margin:0;
+}
+
+
+#tableau {
+width:800px;
+height:500px;
+border: solid black 1px;
+background-color: white;
+display: inline-block;
+
+}
+.container{
+  text-align: center;
+  margin-top: 50px;
+}
+.size {
+  border: solid black 1px;
+  border-radius:10%;
+  width:50px;
+  height:30px;
+  background-color: black;
+  color: white;
+  display: inline-block;
+}
+
+.color{
+  border-radius:50%;
+  height:50px;
+  width:50px;
+  display: inline-block;
+  margin: 20px 5px;
+}

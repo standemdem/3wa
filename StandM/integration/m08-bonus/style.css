@@ -1,0 +1,270 @@
+*{
+  box-sizing: border-box;
+}
+body {
+  font-size:0 ;
+  background: #f3f1f4;
+}
+.global_container { /* contient toute ma page*/
+  display:block;
+  width: 80%;
+  margin:0 auto;
+  font-size: 1rem;
+  font-family:"PT Sans Narrow", serif;
+}
+.flex_parent { /*englobe ma seciont principale et mon aside*/
+  display: flex;
+  flex-wrap: wrap;
+}
+.clear {
+  clear: both;
+}
+/*DECLARATION GENERALE*/
+h1 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  color:#2AAB94;
+  font-weight: normal;
+  margin-top: 50px;
+}
+h2 {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  color:#2AAB94;
+  font-weight: normal;
+}
+h3 {
+  color:#2AAB94;
+  font-weight: normal;
+}
+hr {
+  background-color: #2AAB94;
+  height:2px;
+  border: none;
+  margin-top: 0;
+}
+p {
+  color: rgba(0, 0, 0, 0.6)
+}
+.image1 {
+  width:100%;
+}
+.image2 {
+  width:100%;
+  display:none;
+}
+.image3 {
+  width:100%;
+  display: none;
+}
+/*HEADER*/
+.img_header {
+  width:100%;
+  display:block;
+  text-align: center;
+}
+.menu {
+  width:100%;
+  height:100px;
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #2AAB94;
+  color: white;
+}
+.input {
+  width:50%;
+  height:40px;
+  border-radius: 5px;
+}
+nav>a{
+  text-decoration: none;
+  color: white;
+  font-size: 1.6rem;
+}
+
+/*SECTION PRINCIPALE*/
+.left_part {
+  display: inline-block;
+  width: 70%;
+  padding: 0 20px;
+}
+.color_inline{
+  color: #2AAB94;
+}
+.video_main {
+  width:100%;
+  height: 370px;
+  margin-top: 20px;
+}
+.flex_item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.flex_item2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.img_round {
+  border-radius:50px;
+  border-radius:50px;
+  border-radius:50px;
+  width:90px;
+  height:90px;
+  float:left;
+  display: inline-block;
+}
+/*STYLE DES MINIATURES*/
+.fa-thumbs-up {
+  margin-left: 60px;
+  transition-duration: 0.3s;
+}
+.fa-thumbs-down{
+  transition-duration: 0.3s;
+}
+i.fa-thumbs-up:hover {
+  color: green;
+}
+i.fa-thumbs-down:hover {
+  color: red;
+}
+/* */
+textarea {
+  width:100%;
+  height:100px;
+}
+.send_message{
+  background-color: #30A894;
+  width:100%;
+  font-family: "PT Sans Narrow", serif;
+  font-weight: bold;
+  font-size: 1.4rem;
+  height:50px;
+  color:white;
+}
+/*ASIDE RIGHT*/
+.right_part {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  width: 30%;
+  background-color: #99D490;
+  padding: 0 20px;
+}
+
+.sticker {
+  width:100%;
+  height: 137.859px;
+}
+
+/*FOOTER*/
+small {
+    text-align: center;
+    background-color: ##f3f1f4;
+    color:black;
+    text-decoration: none;
+    font-size: 0.5em;
+}
+small a {
+  text-decoration: none;
+}
+small img {
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+    text-align: center;
+    width: 30px;
+    padding-top: 15px;
+}
+#licence {
+    display: block;
+    text-align: center;
+    padding:0 0 20px 0;
+  }
+
+/*RESPONSIVE*/
+
+      /*TABLETTE*/
+@media (max-width: 1025px) {
+  .global_container{
+    width:90%;
+  }
+  .menu {
+    display: flex;
+    flex-direction: column;
+    height:200px;
+    align-items: center;
+  }
+  .flex_parent {
+    display: flex;
+    flex-direction: row;
+  }
+  .left_part {
+    width:100%;
+  }
+  .right_part {
+    width: 100%;
+  }
+  .image1 {
+    display: none;
+  }
+  .image2{
+    display:block;
+    width:100%;
+  }
+}
+      /*TELEPHONE*/
+@media (max-width: 767px) {
+  .global_container{
+    width:90%;
+  }
+  .menu {
+    display: flex;
+    flex-direction: column;
+    height:200px;
+    align-items: center;
+  }
+  .flex_parent {
+    display: flex;
+    flex-direction: row;
+  }
+  .left_part {
+    width:100%;
+  }
+  .right_part {
+    width: 100%;
+    display:none;
+  }
+  .image1 {
+    display: none;
+  }
+  .image2{
+    display:none;
+  }
+  .image3{
+    display:block;
+    width:100%;
+  }
+}
+
+
+
+
+## CSS
+- Réalisation de l'exercice en mobil-first
+- Utilisation des media queries
+- Utilisation du display none
+- Largeur limité à 80% maximum en desktop
+- Largeur du bloc de gauche en desktop : 70%
+- Largeur du bloc de droite en desktop : 30%
+- Police utilisés :
+    - "PT Sans Narrow"
+    - "Open Sans"
+- Tailles utilisés :
+    - par défaut : 1.6rem
+    - h1 : 4rem
+    - h2 : 2.4rem

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.0.4/css/all.css" rel="stylesheet">
+  </head>
+    <body>
+      <section class="container">
+        <header>
+          <a href="index.html"><img src="logo.png" alt="logo green office"></a>
+          <nav>
+            <a href="aboutus.html">location</a>
+            <a href="aboutus.html">about us</a>
+            <a href="contact.html">contact</a>
+          </nav>
+        </header>
+
+
+      <form>
+        <p>Merci de remplir les champs ci-dessous</p>
+        <div class="form">
+          <fieldset>
+            <legend>Qui êtes vous ?</legend>
+            <label for="C">Votre sexe</label>
+              <input type="radio" name="sexe" value="homme" id="C" checked>Homme
+              <input type="radio" name="sexe" value="femme" >Femme
+              <input type="radio" name="sexe" value="autre" >autre
+            <label for="nom">Votre nom</label>
+              <input type="text" name="nomdefamille" value="Nom et prénom" id="nom">
+            <label for="age">Age
+              <input type="number" id="age" name="age" min="7" max="77">
+            <label for="vehicule">Vous possédez:</label>
+              <label for="c1"><input type="checkbox" name="vehicle1" value="voiture" id="c1">Une voiture</label>
+              <label for="c2"><input type="checkbox" name="vehicle2" value="velo" id="c2">Un vélo</label>
+              <label for="c3"><input type="checkbox" name="vehicle3" value="autre" id="c3">Un autre moyen de transport</label>
+          </fieldset>
+        </div>
+        <div class="form">
+          <fieldset>
+            <legend>Votre adresse</legend>
+            <label for="adresse">Adresse</label>
+              <input type="text" name="adresse" value="Adresse">
+            <label for="codepostal">Code Postal</label>             <input type="text" name="codepostal" value="Code postal">
+            <label for="pays">Pays</label>
+              <input type="text" name="pays" value="Pays">
+          </fieldset>
+        </div>
+            <label for="avis">Comment trouvez vous notre service?</label>
+              <select name="avis">
+                <option value=good>Très bon</option>
+                <option value="average">moyen</option>
+                <option value="low">mauvais</option>
+              </select>
+            <label for="message">Dites-nous en plus:</label>
+              <textarea name="message" name="message" value="questions">Posez nous vos questions
+              </textarea>
+              <input type="submit" value="Envoyer">
+            </div>
+          </form>
+        <div class="clear"></div>
+      </section>
+
+      <footer>
+        <img src="3wa.png">
+        <small id="licence">Cet exercice de <a href="">3W Academy</a> est mis à disposition <a href="">pour l'usage personnel des étudiants, Pas de Rediffusion -Attribution - Pas d'Utilisation Commerciale - Pas de Modification - International.</a><br/>
+        Les autorisations au-delà du champ de cette licence peuvent être obtenues auprès de <a href="mailto:contact@3wa.fr" alt="adresse mail 3wa">contact@3wa.fr</a>. Les maquettes ont été réalisées par <a href="">Justine Muller</a></small>
+      </footer>
+
+    </body>
+  </html>

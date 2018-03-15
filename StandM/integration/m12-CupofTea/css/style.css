@@ -1,0 +1,256 @@
+/*GLOBAL */
+* {
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	outline: none;
+	text-decoration: none;
+	-webkit-transition: all .2s ease 0s;
+	transition: all .2s ease 0s;
+}
+@font-face {
+  font-family: "Open Sans";
+  src:url("../fonts/Open_Sans/OpenSans-Regular.ttf");
+}
+@font-face {
+  font-family: "Amaranth";
+  src:url("../fonts/Amaranth/Amaranth-Regular.ttf");
+}
+body {
+	margin: 0;
+	font-size: 100%;
+	font-family: "Open Sans", arial;
+	background-color: #f1f0f0;
+	}
+header>div>nav>a {
+	text-decoration: none;
+	color: white;
+}
+img {
+	max-width: 100%;
+}
+h1,h2,h3{
+	font-family:  "Amaranth";
+	font-weight: normal;
+}
+.index h1 {
+	font-size: 2.5rem;
+	color: #96b00e;
+	text-align: center;
+}
+h2{
+	font-size: 1.575rem;
+	color: #96b00e;
+}
+h3{
+		font-size: 1.25rem;
+}
+.container {
+	max-width: 80%;
+	margin: 0 auto;
+}
+
+.clearfix {
+  height:1%;
+}
+.clearfix:after {
+	content:".";
+	height:0;
+	line-height:0;
+	display:block;
+	visibility:hidden;
+	clear:both;
+}
+
+/*header*/
+
+header{
+	background-image: url("../img/bg.jpg");
+	background-position:center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+header>div{
+	padding-top:70px;
+}
+header>div>div{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color:white;
+}
+header>div>div>p>strong::before{
+	content: "\f07a";
+	font-family: FontAwesome;
+	border-radius: 50%;
+	border:solid white 2px;
+	padding:10px 10px;
+}
+
+header>div>nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding:4% 0;
+	text-transform: uppercase;
+	color: white;
+
+}
+header>p:first-child{
+	background-color: rgba(135, 157, 15, 0.75);
+	position: absolute;
+	top: 0;
+	margin-top:0;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	width:100%;
+	color: white;
+	text-align: center;
+}
+#ribbon {
+	position: absolute;
+	width:10%;
+	top:0px;
+	right:0;
+}
+
+/*MAIN*/
+section>small{
+	display: block;
+	text-align: center;
+	margin-bottom: 2%;
+	margin-top:1%;
+}
+.flex_choix{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-around;
+	text-align:center;
+	background-color: white;
+	margin-bottom: 3%;
+
+}
+.flex_choix h2{
+	flex-basis: 100%;
+	text-align: center;
+}
+.flex_choix article{
+	flex:1;
+	padding:0 1%;
+}
+
+.button {
+	background-color:#b09067;
+	color: white;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	margin-bottom: 50px;
+}
+main>div:nth-child(4){
+	padding-bottom: 3%;
+}
+
+/*FOOTER*/
+footer {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-around;
+	text-align: center;
+	background-image: url("../img/bg.jpg");
+	background-repeat: no-repeat;
+	background-color: rgb(150, 173, 14);
+	background-position: center bottom;
+
+}
+footer>nav{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding:2% 0;
+	text-transform: uppercase;
+	background-color: rgba(135, 157, 15, 0.65);
+	color: white;
+	flex-basis: 100%;
+}
+footer>nav>a {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+footer>div>h2{
+	color: white;
+	text-transform: uppercase;
+}
+footer>div {
+	flex:1;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	color: rgba(255, 255, 255, 0.5)
+}
+footer>small {
+	flex-basis: 100%;
+	padding:2% 0;
+	margin-top: 3%;
+	background-color: rgba(135, 157, 15, 0.65);
+}
+
+small img {
+	width:3%;
+}
+
+
+/* PAGE PRODUIT */
+.product {
+	background-color: white;
+	padding:3% 2%;
+	margin-bottom: 3%;
+}
+.flex_between {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.aside_product{
+	text-align: right;
+}
+
+.aside_product>select{
+	margin-top: 30%;
+}
+.aside_product>p {
+	margin-bottom: 40%;
+}
+#amelie{
+	float:left;
+}
+#xavier{
+	float:right;
+}
+#amelie, #xavier{
+	width:46%;
+	margin:2% 2%;
+}
+
+.flex_around {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-around;
+	text-align: center;
+	background-color: #EAEFCF;
+	padding: 2% 0;
+}
+.flex_around>article{
+	flex:1;
+}
+.flex_around>article+article {
+	padding-left:5%;
+}
+.flex_around>article>img {
+	width:20%;
+}
