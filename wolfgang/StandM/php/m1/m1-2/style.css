@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+/*======================HEADER==========================*/
+.header_container{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+  font-family: "Open Sans", serif;
+  color:white;
+}
+.taches{
+  display:inline;
+
+}
+#title_header{
+
+}
+
+
+/*=========================FORMULAIRE=====================*/
+.main_container {
+  display:flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items:baseline;
+  justify-content: center;
+}
+.late{
+  color:red;
+  font-weight:bold;
+  text-transform: uppercase;
+}
+.hide {
+  display:none;
+}
+label:hover + div {
+  display:block;
+}

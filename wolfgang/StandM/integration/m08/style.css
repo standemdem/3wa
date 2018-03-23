@@ -1,0 +1,196 @@
+*{
+  box-sizing: border-box;
+}
+body {
+  font-size:0 ;
+  background: #f3f1f4;
+}
+.global_container { /* contient toute ma page*/
+  display:block;
+  width: 80%;
+  margin:0 auto;
+  font-size: 1rem;
+  font-family:"PT Sans Narrow", serif;
+}
+.flex_parent { /*englobe ma seciont principale et mon aside*/
+  display: flex;
+  flex-wrap: wrap;
+}
+/*DECLARATION GENERALE*/
+h1 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  color:#2AAB94;
+  font-weight: normal;
+  margin-top: 50px;
+}
+h2 {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  color:#2AAB94;
+  font-weight: normal;
+}
+hr {
+  background-color: #2AAB94;
+  height:2px;
+  border: none;
+  margin-top: 0;
+}
+p {
+  color: rgba(0, 0, 0, 0.6)
+}
+.image1 {
+  width:100%;
+}
+.image2 {
+  width:100%;
+  display:none;
+}
+.image3 {
+  width:100%;
+  display: none;
+}
+/*HEADER*/
+.img_header {
+  width:100%;
+  display:block;
+  text-align: center;
+}
+.menu {
+  width:100%;
+  height:100px;
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #2AAB94;
+  color: white;
+}
+nav>a{
+  text-decoration: none;
+  color: white;
+  font-size: 1.6rem;
+}
+
+/*SECTION PRINCIPALE*/
+.left_part {
+  display: inline-block;
+  width: 70%;
+  padding: 0 20px;
+}
+.color_inline{
+  color: #2AAB94;
+}
+
+/*ASIDE RIGHT*/
+.right_part {
+  width: 30%;
+  background-color: #99D490;
+  padding: 0 20px;
+}
+/*FOOTER*/
+small {
+    text-align: center;
+    background-color: ##f3f1f4;
+    color:black;
+    text-decoration: none;
+    font-size: 0.5em;
+}
+small a {
+  text-decoration: none;
+}
+small img {
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+    text-align: center;
+    width: 30px;
+    padding-top: 15px;
+}
+#licence {
+    display: block;
+    text-align: center;
+    padding:0 0 20px 0;
+  }
+
+/*RESPONSIVE*/
+
+      /*TABLETTE*/
+@media (max-width: 1100px) {
+  .global_container{
+    width:90%;
+  }
+  .menu {
+    display: flex;
+    flex-direction: column;
+    height:200px;
+    align-items: center;
+  }
+  .flex_parent {
+    display: flex;
+    flex-direction: row;
+  }
+  .left_part {
+    width:100%;
+  }
+  .right_part {
+    width: 100%;
+  }
+  .image1 {
+    display: none;
+  }
+  .image2{
+    display:block;
+    width:100%;
+  }
+}
+      /*TELEPHONE*/
+@media (max-width: 767px) {
+  .global_container{
+    width:90%;
+  }
+  .menu {
+    display: flex;
+    flex-direction: column;
+    height:200px;
+    align-items: center;
+  }
+  .flex_parent {
+    display: flex;
+    flex-direction: row;
+  }
+  .left_part {
+    width:100%;
+  }
+  .right_part {
+    width: 100%;
+    display:none;
+  }
+  .image1 {
+    display: none;
+  }
+  .image2{
+    display:none;
+  }
+  .image3{
+    display:block;
+    width:100%;
+  }
+}
+
+
+
+
+## CSS
+- Réalisation de l'exercice en mobil-first
+- Utilisation des media queries
+- Utilisation du display none
+- Largeur limité à 80% maximum en desktop
+- Largeur du bloc de gauche en desktop : 70%
+- Largeur du bloc de droite en desktop : 30%
+- Police utilisés :
+    - "PT Sans Narrow"
+    - "Open Sans"
+- Tailles utilisés :
+    - par défaut : 1.6rem
+    - h1 : 4rem
+    - h2 : 2.4rem

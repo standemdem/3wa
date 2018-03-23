@@ -1,0 +1,71 @@
+h1 {
+  text-align: center;
+  background: lightgray;
+}
+body {
+    background-color: white;
+  }
+header {
+  position:fixed;
+  width: 100%;
+  top:0px;
+  left:0px;
+  background: gray;
+  text-align: center;
+  text-transform:Capitalize;
+  opacity: 0.9;
+}
+header a {
+  color:white;
+  font-size: 20px;
+  padding: 0 20px 0 20px;
+  }
+section {
+  margin-top:100px;
+}
+.red{
+  color:red;
+  font-family:Arial;
+}
+.blue {
+  color:blue;
+  font-family:Arial;
+}
+.green {
+  color:green;
+  font-family:Arial;
+}
+.bgred {
+  background-color:red;
+  font-family: Monospace;
+}
+.bgblue {
+  background-color:blue;
+  font-family: monospace;
+
+}
+.bggreen {
+  background-color:green;
+  font-family: monospace;
+}
+img {
+  height:200px;
+  width:200px;
+}
+footer img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height:50px;
+  width:50px;
+}
+footer p {
+  text-align: center;
+  font-size:10px;
+}
+div.bordure {
+  border-bottom:1px solid black;
+}
+.gray {
+  color:dimgrey;
+}

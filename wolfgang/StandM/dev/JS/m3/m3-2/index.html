@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+	<link rel="stylesheet" href="style.css" />
+	<title>M3-2 - AJAX</title>
+</head>
+<body>
+  <div class="main_container">
+    <h1><i class="fas fa-flask"></i>Exercice AJAX</h1>
+    <div class="container">
+      <p>Résultats...</p>
+    </div>
+    <form>
+      <fieldset>
+        <legend><i class="fas fa-question-circle"></i>Votre choix</legend>
+        <input type="radio" name="choice" value="html" id="choice1"/><label>récupérer un contenu HTML du serveur</label><br />
+        <input type="radio" name="choice" value="json" id="choice2"/><label>récupérer un contenu JSON du serveur</label><br />
+        <input type="radio" name="choice" value="html2" id="choice2" /><label>récupérer les films</label><br />
+
+        <input type="radio" id="gifradio" name="choice" value="gif" />
+        <input type="search" id="search" value="gifSearch"  placeholder="search your gif" /><br/>
+        <input type="button" id="execute" value="Exécuter" />
+      </fieldset>
+    </form>
+  </div>
+  <script src="http://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  <script src="js/ajax.js"></script>
+  <script src="js/events.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

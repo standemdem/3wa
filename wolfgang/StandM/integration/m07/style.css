@@ -1,0 +1,156 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding:0;
+  font-family: arial, serif;
+}
+h2 {
+  color: #4CC5DD;
+  margin: 0px;
+}
+h3 {
+  color: #7FD7E7;
+  text-align: center;
+}
+p {
+  color:#BBBEBE;
+  margin:10px 0 30px 0;
+}
+.header-block1 {
+  display:inline-block;
+  width:100%;
+}
+header >div>div {
+  padding-top: 60px;
+  display: inline-block;
+}
+div > img {
+  float:left;
+}
+.text-header {
+  font-weight: bold;
+  color: #b0aeaf;
+  margin: 0;
+  font-style: italic;
+  font-size: 1.2em
+}
+ul, li {
+  list-style-type: none;
+  padding:0;
+  margin:0;
+}
+hr {
+  background-color: #2CBCD6;
+  height: 3px;
+  margin-top: 0;
+}
+/*Menu de navigation*/
+.parent-menu {
+  display:inline-block;
+}
+.menu-container {
+  display:none;
+  left: 0;
+  text-align: center;
+  padding-bottom: 30px;
+  padding-left: 100px;
+  padding-right:100px;
+}
+nav {
+  text-align: center;
+}
+nav .menu {
+  display:inline-block;
+}
+.a-nav{
+  display: inline-block;
+  font-weight: bold;
+}
+li:hover a {
+  color:white;
+  font-weight: bold;
+}
+nav > ul > div > li:hover {
+  background-color: #2CBCD6;
+  padding:20px 20px 30px 20px;
+}
+nav >ul>div>li {
+  padding:20px 20px 30px 20px;
+}
+nav > ul {
+  margin:0;
+  padding:0;
+  }
+nav > ul > li {
+  display: inline-block;
+  margin:0;
+  padding:0;
+  position:relative;
+}
+nav > ul::after{
+  content: "";
+  display:block;
+  clear: both;
+}
+nav li:hover .menu-container {
+  display:block;
+  position:absolute;
+  left: 0px;
+  z-index: 100000;
+  background: #2CBCD6;
+  color:white;
+  width:100%;
+  margin-top: 10px;
+}
+.submenu li > a{
+  color:white;
+  width:50%;
+}
+nav a {
+  color: #2CBCD6;
+  text-decoration: none;
+  display: inline-block;
+}
+.submenu {
+  width:100%;
+}
+.liste {
+  width:50%;
+  display: inline-block;
+  float: left;
+}
+/*Corps du texte*/
+
+.container_article {
+  width:70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+/*FOOTER*/
+small {
+    text-align: center;
+    background-color: #2CBCD6;
+    color:white;
+    text-decoration: none;
+    font-size: 0.5em;
+}
+small a {
+  text-decoration: none;
+  color:white;
+}
+small img {
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+    text-align: center;
+    width: 30px;
+    padding-top: 15px;
+}
+#licence {
+    display: block;
+    text-align: center;
+    padding:0 0 20px 0;
+  }

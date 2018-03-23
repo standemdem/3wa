@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+}
+body{
+  background-image: url("./images/concrete_seamless.png");
+  font-family: "Open Sans", serif;
+}
+h1 {
+  color: rgb(1, 152, 117);
+  text-transform: capitalize;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 10px;
+}
+nav > button {
+  margin:10px;
+}
+
+.toolbar {
+  visibility: hidden;
+}
+
+.button_display {
+  visibility: visible;
+}
+.container {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content:center;
+  flex-direction: column;
+  align-items: center;
+  transform: rotate(-3deg);
+}
+.bullet_container {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content:center;
+  flex-direction: row;
+  align-items: center;
+}
+img {
+  margin-top: 60px;
+  border:solid white 12px;
+  box-shadow: 2px 2px 3px #6F6E73;
+  border-radius: 4px;
+}
+
+.clear {
+  clear: both;
+}
+
+.circle {
+  border-radius:50%;
+  background: grey;
+  padding: 10px 10px;
+  margin: 10px;
+}
+
+.circle:hover {
+  background:blue;
+}
+.circle:visited {
+  background:blue;
+}
+
+.testclick{
+  background:pink;
+}
