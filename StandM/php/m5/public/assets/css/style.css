@@ -1,0 +1,117 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  /*background-image: url("../img/unicorn.jpg");*/
+  /*background: red;*/
+}
+.container {
+	max-width: 80%;
+	margin: 0 auto;
+}
+
+.clearfix {
+  height:1%;
+}
+.clearfix:after {
+	content:".";
+	height:0;
+	line-height:0;
+	display:block;
+	visibility:hidden;
+	clear:both;
+}
+a {
+  text-decoration: none;
+
+}
+
+.green_button {
+  background-color: green;
+  padding:4% 6%;
+  border-radius: 10px;
+  color: white;
+
+
+}
+/**************HEADER*********************/
+
+header{
+  border-top: 10px solid red;
+  text-align: center;
+}
+header>a>img {
+  width:5%;
+  height: 5%;
+
+}
+.flex_row{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.navigation{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row
+}
+/*FORMULAIRE*/
+fieldset{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: flex-start;
+}
+/**********FOOTER***********/
+
+footer {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-around;
+	text-align: center;
+
+
+
+
+
+}
+footer>nav{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding:2% 0;
+	text-transform: uppercase;
+
+	color: white;
+	flex-basis: 100%;
+}
+footer>nav>a {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+footer>div>h2{
+	color: white;
+	text-transform: uppercase;
+}
+footer>div {
+	flex:1;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+}
+footer>small {
+	flex-basis: 100%;
+	padding:2% 0;
+	margin-top: 3%;
+
+}
+
+small img {
+	width:3%;
+}
